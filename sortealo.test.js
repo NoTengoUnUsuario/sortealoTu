@@ -1,5 +1,5 @@
 import { expect, test } from "vitest";
-import { selectRandomFromArray } from "util";
+import { selectRandomFromArray } from "./util";
 
 test("select random", () => {
   const arrayTest = [1, 5, 6];

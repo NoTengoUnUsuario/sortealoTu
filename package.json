@@ -12,6 +12,7 @@
     "preview": "vite preview"
   },
   "devDependencies": {
+    "@vitest/coverage-c8": "^0.24.5",
     "vite": "^3.1.0",
     "vitest": "^0.24.5"
   },
