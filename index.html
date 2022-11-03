@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sortealo tú</title>
+  </head>
+  <body>
+    <div class="container" id="app">
+      <div class="lottery-name">
+        <div>¿Qué vas a sortear?</div>
+        <input id="product" type="text" />
+      </div>
+
+      <div>Participantes en el sorteo</div>
+
+      <small>Introduce cada participante en una línea</small>
+
+      <textarea rows="7" id="participants" class="participants"></textarea>
+
+      <button class="raffle" id="button">Sortear</button>
+
+      <div id="winner" class="winner">Enhorabuena XXX, has ganado YYY</div>
+    </div>
+    <script type="module" src="main.js"></script>
+  </body>
+</html>
